@@ -1,0 +1,87 @@
+//---------------------------------------------------Zombie----------------------------------------------------
+
+Enter total number of elements: 5
+
+Enter elements : 
+3
+2
+4
+1
+5
+----MENU----
+1.Zombie
+2.Orphan
+Enter your choice : 1
+
+Current Process id is:	4268
+Forking...
+
+Child Process started!
+Process ID is: 4269
+Parent Process ID is: 4268
+
+Sorted Array: 1 2 3 4 5 
+
+
+Zombie!!
+
+Parent Process
+Process ID is:	4268
+Parent Process ID is:	4252
+
+Sorted Array:	0 1 2 3 4 
+
+0 S oslab-07  4268  4252  0  80   0 -  1089 wait   15:28 pts/4    00:00:00 ./a.out
+1 Z oslab-07  4269  4268  0  80   0 -     0 -      15:28 pts/4    00:00:00 [a.out] <defunct>
+0 S oslab-07  4270  4268  0  80   0 -  1126 wait   15:28 pts/4    00:00:00 sh -c ps -elf | grep a.out
+0 S oslab-07  4272  4270  0  80   0 -  3556 pipe_w 15:28 pts/4    00:00:00 grep a.out
+
+
+
+
+//---------------------------------------------------Orphan----------------------------------------------------
+
+
+Enter total number of elements: 5
+
+Enter elements : 
+3
+2
+1
+5
+4
+----MENU----
+1.Zombie
+2.Orphan
+Enter your choice : 2
+
+Current Process id is:	4284
+Forking...
+
+Child Process!!
+Process ID is:	4285
+Parent Process ID is:	4284
+
+Sorted Array: 1 2 3 4 5 
+
+
+Child is sleeping!!
+
+Parent Process started!
+Process ID is:	4284
+Parent Process ID is:	4252
+
+Sorted Array:	0 1 2 3 4 
+
+
+Parent is dying!!
+oslab-07@oslab07:~$ 
+Back to Child Process
+
+Process ID is:	4285
+Parent Process ID is:	1702
+Orphan!!
+1 S oslab-07  4285  1702  0  80   0 -  1089 wait   15:30 pts/4    00:00:00 ./a.out
+0 S oslab-07  4291  4285  0  80   0 -  1126 wait   15:30 pts/4    00:00:00 sh -c ps -elf | grep a.out
+0 S oslab-07  4293  4291  0  80   0 -  3556 pipe_w 15:30 pts/4    00:00:00 grep a.out
+

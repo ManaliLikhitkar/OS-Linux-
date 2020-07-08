@@ -1,0 +1,204 @@
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-1
+
+Database created successfully!
+
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-2
+
+Enter ID: -1
+Enter name: -ask
+Enter phone number: -9988404010
+Enter disease: -cold
+
+Record Inserted Successfully!
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-2
+
+Enter ID: -2
+Enter name: -mml
+Enter phone number: -7897891020
+Enter disease: -flu
+
+Record Inserted Successfully!
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-3
+
+HOSPITAL DATA:
+
+ID	NAME	 PHONE NUMBER	DISEASE
+
+1	ask	  9988404010	  cold
+2	mml	  7897891020	  flu
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-4
+
+Enter ID to be searched: -1
+
+ID	NAME	 PHONE Number	DISEASE
+
+1	ask	  9988404010	  cold
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-4
+
+Enter ID to be searched: -3
+
+ID	NAME	PHONE Number	DISEASE
+
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-6
+
+Enter ID to be updated: -2
+
+Enter new phone number:-7845784533
+
+Data Modified!!
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-3
+
+HOSPITAL DATA:
+
+ID	NAME	PHONE NUMBER	DISEASE
+
+1	ask	  9988404010	  cold
+2	mml	  7845784533	  flu
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-2
+
+Enter ID: -3
+Enter name: -aaj
+Enter phone number: -4545125400
+Enter disease: -headache
+
+Record Inserted Successfully!
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-3
+
+HOSPITAL DATA:
+
+ID	NAME	PHONE NUMBER	DISEASE
+
+1	ask	  9988404010	  cold
+2	mml	  7845784533	  flu
+3	aaj	  4545125400	  headache
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-5
+
+Enter ID to be deleted: -2
+
+Record deleted Successfully!!
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-3
+
+HOSPITAL DATA:
+
+ID	NAME	PHONE NUMBER	DISEASE
+
+1	ask	  9988404010	  cold
+3	aaj	  4545125400	  headache
+
+HOSPITAL DATABASE:
+1.Create database
+2.Insert Record  
+3.Display Record 
+4.Search Record
+5.Delete Record
+6.Modify Record
+7.Exit
+Enter your choice:-7
